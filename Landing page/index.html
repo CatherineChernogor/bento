@@ -37,138 +37,161 @@
 
 <!--start-home-->
 	<div class="banner" id="home">
-		<div class="header-bottom wow slideInDown">
-		    <div class="container">
-			  <div class="fixed-header">
-			      <!--logo-->
-			       <div class="logo">
-                      <a href="index.html"><h1>B<span>ento</span></h1></a>
-					  <p>The Real taste</p>
-				   </div>
-					<!--//logo-->
-					<div class="top-menu">
-							<span class="menu"> </span>
-							<nav class="link-effect-4" id="link-effect-4">
-                    <ul>
-											<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
-											<li><a data-hover="Services" href="#services" class="scroll">Services</a></li>
-											<li><a data-hover="Prodact" href="#gallery" class="scroll">Gallery</a></li>
-											<li><a data-hover="Contact" href="#contact" class="scroll">Contact</a></li>
-										</ul>
-							</nav>
-					</div>
-					</div>
-			</div>
-		</div>
-		<div class="banner-slider">
-				<div class="callbacks_container">
-					<ul class="rslides" id="slider4">
-					  <li>
-						  <div class="banner-info">
-							    <h3 class="wow slideInUp">Welcome</h3>
-								  <p class="wow slideInDown">TO THE HONEST FOOD</p>
-								  <div class="arrows wow slideInDown">
-										<img src="images/border.png" alt="border"/>
-									</div>
-								 	<span class="wow slideInUp">READY TO BE OPENED</span>
-							</div>
-						</li>
-						<li>
-						   <div class="banner-info">
-							    <h3 class="wow slideInUp">The Real</h3>
-								 <p class="wow slideInDown">SPICY MASALAS</p>
-								  <div class="arrows wow slideInDown">
-										<img src="images/border.png" alt="border"/>
-									</div>
-								 <span class="wow slideInUp">READY TO BE OPENED</span>
-							  </div>
-						</li>
-						<li>
-						   <div class="banner-info">
-							    <h3 class="wow slideInUp">Delicious</h3>
-								  <p class="wow slideInDown">FRESH FOODS</p>
-								  <div class="arrows wow slideInDown">
-										<img src="images/border.png" alt="border"/>
-									</div>
-								  <span class="wow slideInUpslideInLeft">READY TO BE OPENED</span>
-						   </div>
-					  </li>
-					</ul>
-				</div>
+			<div id="black">
 				
 
-		<!--banner Slider starts Here-->
-	  	<script src="js/responsiveslides.min.js"></script>
-			 <script>
-			    // You can also use "$(window).load(function() {"
-			    $(function () {
-			      // Slideshow 4
-			      $("#slider4").responsiveSlides({
-			        auto: true,pager:true,nav:false,speed: 500,namespace: "callbacks",before: function () {
-			          $('.events').append("<li>before event fired.</li>");
-			        },
-			        after: function () {
-			          $('.events').append("<li>after event fired.</li>");
-			        }
-			      });
-			    });
-			  </script>
-	      <!--banner Slider starts Here-->
-		 </div>
+		<div class="header-bottom slideInDown " >
+		    <div class="container">
+			  	<div class="fixed-header">
+												<!--logo-->
+												<div class="logo">
+														<a href="index.html"><h1>B<span>ento</span></h1></a>
+														<p>The Real taste</p>
+												</div>
+												<!--//logo-->
 
-		 <div class="down"><a class="scroll" href="#services"><img src="images/down.png" alt=""></a></div>
+
+												<div class="top-menu">
+														<span class="menu"> </span>
+
+														<nav class="link-effect-4" id="link-effect-4">
+																	<ul>
+																		<li class="active"><a data-hover="Home" href="index.html">Home</a></li>
+																		<li><a data-hover="Services" href="#services" class="scroll">Services</a></li>
+																		<li><a data-hover="Prodact" href="#gallery" class="scroll">Prodact</a></li>
+																		<li><a data-hover="Contact" href="#contact" class="scroll">Contact</a></li>
+																	</ul>
+														</nav>
+
+											</div>
+
+						</div>
+					</div>
+			</div>
+
+
+		<div class="banner-slider">
+						<div class="callbacks_container">
+										<ul class="rslides" id="slider4">
+
+
+											<li>
+												<div class="banner-info">
+														<h3 class="slideInUp">Welcome</h3>
+														<p class="slideInDown">TO THE BENTO WORLD</p>
+														<div class="arrows slideInDown">
+															<img src="images/border.png" alt="border"/>
+														</div>
+														<span class="slideInUp">READY TO BE OPENED</span>
+												</div>
+											</li>
+
+											<li>
+												<div class="banner-info">
+														<h3 class="slideInUp">The Real</h3>
+													<p class="slideInDown">UMAMI TASTE</p>
+														<div class="arrows slideInDown">
+															<img src="images/border.png" alt="border"/>
+														</div>
+													<span class="slideInUp">READY TO BE OPENED</span>
+													</div>
+											</li>
+
+											<li>
+												<div class="banner-info">
+														<h3 class="slideInUp">Every day</h3>
+														<p class="slideInDown">FRESH FOODS</p>
+														<div class="arrows slideInDown">
+															<img src="images/border.png" alt="border"/>
+														</div>
+														<span class="slideInUpslideInLeft">READY TO BE OPENED</span>
+												</div>
+											</li>
+										</ul>
+						</div>
+		
+
+					<!--banner Slider starts Here-->
+						<script src="js/responsiveslides.min.js"></script>
+						<script>
+								$(function () {
+									$("#slider4").responsiveSlides({
+										auto: true,pager:true,nav:false,speed: 500,namespace: "callbacks",before: function () {
+											$('.events').append("<li>before event fired.</li>");
+										},
+										after: function () {
+											$('.events').append("<li>after event fired.</li>");
+										}
+									});
+								});
+							</script>
+							<!--banner Slider starts Here-->
 	</div>
 
+
+		 <div class="down">
+			 <a class="scroll" href="#services">
+				 <img src="images/down.png" alt="">
+				</a>
+			</div>
+
+
+	</div>
+</div>
 
 
 <!-- service-type-grid -->
 	<div class="service" id="services">
 		<div class="container">
-		    <h3 class="tittle">Our Services</h3>
+				<h3 class="tittle">Our Services</h3>
+				
 			<div class="arrows-serve">
 				<img src="images/border.png" alt="border">
 			</div>
+
 				<div class="inst-grids">
 
 
-					<div class="col-md-3 services-gd text-center wow slideInLeft">
-						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-							<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
-						</div>
-						<h4>View our Menu</h4>
-						 <p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+					<div class="col-md-3 services-gd text-center slideInLeft">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="#" class="hi-icon"><img src="images/serve1.png" alt=" " /></a>
+							</div>
+							<h4>View our Menu</h4>
+							<p>As many pakages as you want but also we can cook to order</p>
 					</div>
 
 
 
-					<div class="col-md-3 services-gd text-center wow slideInDown">
-						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-							<a href="#" class="hi-icon"><img src="images/serve2.png" alt=" " /></a>
-						</div>
-						<h4>Delivery</h4>
-						 <p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+					<div class="col-md-3 services-gd text-center slideInDown">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="#" class="hi-icon"><img src="images/serve2.png" alt=" " /></a>
+							</div>
+							<h4>Delivery</h4>
+							<p>We can deliver you order what ever you want in the city</p>
 					</div>
 
 
 
-					<div class="col-md-3 services-gd text-center wow slideInUp">
-						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-							<a href="#" class="hi-icon"><img src="images/serve3.png" alt=" " /></a>
-						</div>
-						<h4>Fine Recipes</h4>
-						 <p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+					<div class="col-md-3 services-gd text-center slideInUp">
+								<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+									<a href="#" class="hi-icon"><img src="images/serve3.png" alt=" " /></a>
+								</div>
+								<h4>Fine Recipes</h4>
+								<p>if you want we can provide you all recepi or show the process of cooking</p>
 					</div>
 
 
 
-					<div class="col-md-3 services-gd text-center wow slideInRight">
-						<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
-							<a href="#" class="hi-icon"><img src="images/serve4.png" alt=" " /></a>
-						</div>
-						<h4>Spicy Recipes</h4>
-						 <p>Lorem ipsum Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit.</p>
+					<div class="col-md-3 services-gd text-center slideInRight">
+							<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9a">
+								<a href="#" class="hi-icon"><img src="images/serve4.png" alt=" " /></a>
+							</div>
+							<h4>Spicy Recipes</h4>
+							<p>We can offer you differens level of spiciness</p>
 					</div>
-					<div class="clearfix"> </div>		
+
+
+					<div class="clearfix"></div>		
 				</div>
 
 		</div>
@@ -182,7 +205,7 @@
 	<div id="review" class="reviews">
 			  <div class="col-md-6 test-left-img"></div>
 				<div class="col-md-6 test-monials">
-					<h3 class="tittle">Testimonial</h3>
+					<h3 class="tittle">Testimonials</h3>
 					<div class="arrows-serve test">
 						<img src="images/border.png" alt="border">
 					</div>
@@ -191,8 +214,9 @@
 						<div class="sreen-gallery-cursual">
 							 <!-- required-js-files-->
 							<link href="css/owl.carousel.css" rel="stylesheet">
-							    <script src="js/owl.carousel.js"></script>
-							        <script>
+									<script src="js/owl.carousel.js"></script>
+									
+							    <script>
 							    $(document).ready(function() {
 							      $("#owl-demo").owlCarousel({
 							        items : 1,lazyLoad : true,autoPlay : true, navigation : false, navigationText :  false, pagination : true,
@@ -202,33 +226,59 @@
 									
 								 <!--//required-js-files-->
 						       <div id="owl-demo" class="owl-carousel">
+
+
 					                 <div class="item-owl">
 					                		<div class="test-review">
-												 <p class="wow fadeInUp"><img src="images/left-quotes.png" alt=""> Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. <img src="images/right-quotes.png" alt=""></p>
+												 				<p class="fadeInUp">
+																	 <img src="images/left-quotes.png" alt=""> 
+																	 It's the best bento i have seen in my life outside Japan
+																	 <img src="images/right-quotes.png" alt=""></p>
 						                	  <img src="images/t3.jpg" class="img-responsive" alt=""/>
-											  <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Martin H. Joseph</h5>
-					                	    </div>
-					                </div>
+											  			<h5 class="bounceIn">Hayao Miyazaki</h5>
+					                	  </div>
+													</div>
+													
+
 					                 <div class="item-owl">
 					                	<div class="test-review">
-										 <p class="wow fadeInUp"  data-wow-duration=".8s" data-wow-delay=".4s"> 
-											 <img src="images/left-quotes.png" alt="">Polite sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-											 <img src="images/right-quotes.png" alt="">
-											</p>
+															<p class="fadeInUp"> 
+																<img src="images/left-quotes.png" alt="">
+																I am so surprised, my child refused eating but after your bento he eat it every day
+																<img src="images/right-quotes.png" alt="">
+																</p>
 						                	<img src="images/t2.jpg" class="img-responsive" alt=""/>
-											 <h5 class="wow bounceIn"  data-wow-duration=".8s" data-wow-delay=".2s">Dennis Pal,</h5>
+											 			<h5 class="bounceIn">Angelina Jolie</h5>
 					                	</div>
-					                </div>
+													</div>
+													
+													
+													<div class="item-owl">
+															<div class="test-review">
+																<p class="fadeInUp"> 
+																	<img src="images/left-quotes.png" alt="">
+																	Hideo Kojima is a genious and 
+																	I'm not, yhat's cuz he was eating  our bento 
+																	<img src="images/right-quotes.png" alt="">
+																	</p>
+																<img src="images/t2.jpg" class="img-responsive" alt=""/>
+															 <h5 class="bounceIn">Mads Mikkelsen</h5>
+															</div>
+														</div>
+
 					                 <div class="item-owl">
 					                	<div class="test-review">
-										     <p class="wow fadeInUp" >
-													 <img src="images/left-quotes.png" alt=""> Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
-													 <img src="images/right-quotes.png" alt="">
-													</p>
+															<p class="fadeInUp" >
+																<img src="images/left-quotes.png" alt=""> 
+																I don't sniff sousages after moment I found out bento for myself, that's such a relief
+																<img src="images/right-quotes.png" alt="">
+															</p>
 						                	<img src="images/t1.jpg" class="img-responsive" alt=""/>
-											 <h5 class="wow bounceIn">Martin H.Wilson</h5>
+											 			<h5 class="bounceIn">Valentina Lebed</h5>
 					                	</div>
-					                </div>
+													</div>
+													
+
 				              </div>
 						<!--//screen-gallery-->
 					</div>
@@ -246,15 +296,15 @@
 				<div class="gallery-grids">
 
 
-					<div class="col-md-6 baner-top wow fadeInRight animated" >
+					<div class="col-md-6 baner-top fadeInRight animated" >
 						<a href="images/bento/bento (19).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (19).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #1</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<p>Cute bento for the little ones; panda will make your child as strong as it is</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -264,15 +314,15 @@
 					</div>
 
 
-					<div class="col-md-6 baner-top wow fadeInLeft animated">
+					<div class="col-md-6 baner-top fadeInLeft animated">
 						<a href="images/bento/bento (12).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (12).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #2</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<p>That delicious bento for sophisticated lady gives you as much happines as human can take</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -282,15 +332,15 @@
 					</div>
 
 
-					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated">
+					<div class="col-md-3 baner-top ban-mar fadeInUp animated">
 						<a href="images/bento/bento (24).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (24).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #3</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+										<p>Rice and Sousages</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -300,15 +350,15 @@
 					</div>
 
 
-					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated">
+					<div class="col-md-3 baner-top ban-mar fadeInDown animated">
 						<a href="images/bento/bento (18).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (18).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #4</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+										<p>Rice and Beef</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -318,15 +368,15 @@
 					</div>
 
 
-					<div class="col-md-3 baner-top ban-mar wow fadeInUp animated">
+					<div class="col-md-3 baner-top ban-mar fadeInUp animated">
 						<a href="images/bento/bento (7).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (7).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #5</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+										<p>Delicious Pancakes</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -336,15 +386,15 @@
 					</div>
 
 
-					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated">
+					<div class="col-md-3 baner-top ban-mar fadeInDown animated">
 						<a href="images/bento/bento (2).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (2).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #6</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+										<p>Rice and Chicken</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -356,15 +406,15 @@
 
 
 					
-					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated">
+					<div class="col-md-3 baner-top ban-mar fadeInDown animated">
 							<a href="images/bento/bento (3).jpg" class="b-link-stripe b-animate-go  swipebox">
 								<div class="gal-spin-effect vertical ">
 									<img src="images/bento/bento (3).jpg" alt=" " />
 									<div class="gal-text-box">
 										<div class="info-gal-con">
-											<h4>Honest Food</h4>
+											<h4>Bento #7</h4>
 											<span class="separator"></span>
-											<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+											<p>Weg rolls and Beef</p>
 											<span class="separator"></span>
 											
 										</div>
@@ -375,15 +425,15 @@
 
 
 						
-					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated">
+					<div class="col-md-3 baner-top ban-mar fadeInDown animated">
 							<a href="images/bento/bento (4).jpg" class="b-link-stripe b-animate-go  swipebox">
 								<div class="gal-spin-effect vertical ">
 									<img src="images/bento/bento (4).jpg" alt=" " />
 									<div class="gal-text-box">
 										<div class="info-gal-con">
-											<h4>Honest Food</h4>
+											<h4>Bento #8</h4>
 											<span class="separator"></span>
-											<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+											<p>Nodlles and Meat</p>
 											<span class="separator"></span>
 											
 										</div>
@@ -394,15 +444,15 @@
 
 
 						
-					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated">
+					<div class="col-md-3 baner-top ban-mar fadeInDown animated">
 							<a href="images/bento/bento (6).jpg" class="b-link-stripe b-animate-go  swipebox">
 								<div class="gal-spin-effect vertical ">
 									<img src="images/bento/bento (6).jpg" alt=" " />
 									<div class="gal-text-box">
 										<div class="info-gal-con">
-											<h4>Honest Food</h4>
+											<h4>Bento #9</h4>
 											<span class="separator"></span>
-											<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+											<p>Maccaroni and Seafood</p>
 											<span class="separator"></span>
 											
 										</div>
@@ -412,15 +462,15 @@
 						</div>
 
 						
-					<div class="col-md-3 baner-top ban-mar wow fadeInDown animated">
+					<div class="col-md-3 baner-top ban-mar fadeInDown animated">
 							<a href="images/bento/bento (1).jpg" class="b-link-stripe b-animate-go  swipebox">
 								<div class="gal-spin-effect vertical ">
 									<img src="images/bento/bento (1).jpg" alt=" " />
 									<div class="gal-text-box">
 										<div class="info-gal-con">
-											<h4>Honest Food</h4>
+											<h4>Bento #10</h4>
 											<span class="separator"></span>
-											<p>Sit accusamus, vel blanditiis iure minima ipsa.</p>
+											<p>Rice and Seafood</p>
 											<span class="separator"></span>
 											
 										</div>
@@ -429,15 +479,15 @@
 							</a>
 						</div>
 
-					<div class="col-md-6 baner-top wow fadeInRight animated">
+					<div class="col-md-6 baner-top fadeInRight animated">
 						<a href="images/bento/bento (17).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (17).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #11</h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<p>Do you see that? It's high quillity meet with extra fresh weg</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -446,15 +496,15 @@
 						</a>
 					</div>
 
-					<div class="col-md-6 baner-top wow fadeInLeft animated">
+					<div class="col-md-6 baner-top fadeInLeft animated">
 						<a href="images/bento/bento (16).jpg" class="b-link-stripe b-animate-go  swipebox">
 							<div class="gal-spin-effect vertical ">
 								<img src="images/bento/bento (16).jpg" alt=" " />
 								<div class="gal-text-box">
 									<div class="info-gal-con">
-										<h4>Honest Food</h4>
+										<h4>Bento #12 </h4>
 										<span class="separator"></span>
-										<p>Sit accusamus, vel blanditiis iure minima ipsa molestias minus laborum velit, nulla nisi hic quasi enim.</p>
+										<p>Feel freedom due to fresh seafood and fruits</p>
 										<span class="separator"></span>
 										
 									</div>
@@ -472,13 +522,10 @@
 	<div class="bottom">
 			<div class="container">
 		       <div class="bottom-top">
-								<h3 class=" wow flipInX">We Are Sharing</h3>
+								<h3 class="flipInX">We Are Sharing</h3>
 								<span>DELICIOUS TREATS</span>
-								<p class="wow slideInDown">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-								<div class="start wow flipInX">
-											<a href="single.html" class="hvr-bounce-to-bottom">Read More</a>
-								</div>
-			  		</div>
+								<p class="slideInDown">100% organic food will show you that food can be tasty and helth in the same time</p>	
+			  	</div>
 			</div>
 	</div>
 
@@ -486,15 +533,17 @@
 	 <div class="section-contact" id="contact">
 	    <div class="container">
            <div class="contact-main">
-				    <div class="col-md-6 contact-grid wow fadeInUp">
-								<h3 class="tittle wow bounceIn">Contact Us</h3>
+
+				<div class="col-md-6 contact-grid fadeInUp">
+
+								<h3 class="tittle bounceIn">Contact Us</h3>
 									<div class="arrows-three">
 										<img src="images/border.png" alt="border">
 									</div>
-									<p class="wel-text wow fadeInDown">Nam libero tempore cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis optio cumque nihil impedit quo minus id quod maxime placeat facere possimus.</p>
+
 				<form id="filldetails">
 								<div class="field name-box">
-									<input type="text" id="name" placeholder="Who Are You?" required=""/>
+									<input type="text" id="name" placeholder="What is your name?" required=""/>
 									<label for="name">Name</label>
 									<span class="ss-icon">check</span>
 								</div>
@@ -512,11 +561,12 @@
 								</div>
 
 								<div class="field msg-box">
-									<textarea id="msg" rows="4" placeholder="Your message goes here..." required=""/ ></textarea>
+									<textarea id="msg" rows="4" placeholder="What do you want to order?" required="" ></textarea>
 									<label for="msg">Message</label>
 									<span class="ss-icon">check</span>
 								</div>
-								<div class="send wow shake">
+
+								<div class="send shake">
 											<input type="submit" value="Send" >
 								</div>
 					 
@@ -526,33 +576,30 @@
 						 
 
 
-					<div class="col-md-6 contact-in wow fadeInUp">
-						<h4 class="info">Our Info </h4>
-						<p class="para1">Lorem ipsum dolor sit amet. Ut enim ad minim veniam.Sunt in culpa qui officia deserunt mollit anim id est laborum.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature. </p>
+			<div class="col-md-6 contact-in fadeInUp">
+
 							<div class="con-top">
-								<h4>Alaska</h4>
+								<h4>Edinburgh</h4>
 												<ul>
-														<li>4th Floor dolor sit amet,</li> 
-														<li># Grand Hyatt New York Road,</li>  
-														<li>Opp. adipiscing elit,</li> 
-														<li>Alaska - 99501</li> 
+														<li>Nicolson Street, 25</li>
 														<li>Ph:4568956555 </li>
 														<li>Call Centre Time : 7am to 11pm</li>
-														<li><a href="mailto:info@example.com">mail@example.com</a></li>
+														<li><a href="mailto:info@example.com">bento_ed@gmail.com</a></li>
 												</ul>
 							</div>
+
+
 						<div class="con-top two">
-							<h4>Hawaii</h4>
+							<h4>Irkutsk</h4>
 							<ul>
-								<li>4th Floor dolor sit amet,</li> 
-								<li># Grand Hyatt New York Road,</li>   
-								<li>Opp. adipiscing elit,</li> 
-								<li>Hawaii - 96815</li>
+								<li>Karl Marks Street, 26</li>
 								<li>Ph:3698521475 </li>
 								<li>Call Centre Time : 7am to 11pm</li>	
-								<li><a href="mailto:info@example.com">mail@example.com</a></li>
+								<li><a href="mailto:info@example.com">bento_irk@gmail.com</a></li>
 							</ul>								
 						</div>
+
+
 					</div>
 			 </div>
 		</div>
@@ -565,8 +612,8 @@
 		<div class="footer text-center">
 						<div class="container">
 							<!--logo2-->
-								<div class="logo2 wow fadeInUp">
-									  <a href="index.html"><h2>H<span>onest Food</span></h2></a>
+								<div class="logo2 fadeInUp">
+									  <a href="index.html"><h2>B<span>ento</span></h2></a>
 									  <p>The Real taste</p>
 								</div>
 							<!--//logo2-->
@@ -580,6 +627,10 @@
 									});
 						</script>
 		<!--end-smooth-scrolling-->
+						</div>
+		</div>
+		
+
 		<a href="#home" id="toTop" class="scroll" style="display: block;">
 			 <span id="toTopHover" style="opacity: 1;"> </span>
 		</a>

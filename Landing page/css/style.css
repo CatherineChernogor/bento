@@ -59,7 +59,7 @@ label{
 /*-- header --*/
 .banner {
     background: url(../images/image/image\ \(11\).jpg) no-repeat 0px 0px;
-    background-size: cover;
+		background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -72,6 +72,14 @@ label{
     left: 46%;
     top: 92%;
 
+}
+
+
+#black {
+		width: 98,5vw;
+		height:101vh;
+    background: rgb(37, 36, 36);
+    background: rgba(51, 48, 48, 0.68);
 }
 
 
@@ -92,24 +100,31 @@ label{
 .logo a h1 {
     font-weight: bold;
     font-size: 4.5em;
-    color: #EFA52C;
+    color:  #EFA52C;
     text-transform: uppercase;
 }
 .logo a span {
-    color: #fff;
+    color: #EFA52C;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 0.3em;
     font-weight: bold;
 }
 .logo p {
     font-size: 0.8em;
-    color: #EFA52C;
+    color:  #EFA52C;
     text-transform: uppercase;
     letter-spacing: 3px;
     padding: 0;
     margin: -9px 0 12px 0;
 }
+
+
 /*--header--*/
+
+
+
+
+
 /*-- sticky-nav --*/
 .header-bottom {
    padding: 0.5em 0em;
@@ -127,6 +142,11 @@ label{
 	z-index:9999;
 	  background-color: rgba(0, 0, 0, 0.59);
 }
+
+
+
+
+
 /*-- sticky-nav --*/
 .top-menu {
     float: right;
@@ -141,7 +161,7 @@ label{
 	display:inline-block;
 }
 .top-menu li a{
-	color:#FFFFFF;
+	color:#fff;
 	text-decoration:none;
 	display:block;
 	padding:0;
@@ -149,8 +169,13 @@ label{
 	font-size:1em;
 }	
 .top-menu li a.active{
-  color: #fff200;
-  }
+  color: #EFA52C;
+	}
+	
+
+
+
+
 /*-- nav-hover --*/
 .link-effect-4 a {
   padding: 0 10px;
@@ -176,6 +201,10 @@ label{
   max-height: 100%;
 }
 /*-- //nav-hover --*/
+
+
+
+
 
 @media only screen and (max-width :800px) {
 	span.menu {
@@ -229,6 +258,13 @@ label{
 		color: #333;
 	}
 }
+
+
+
+
+
+
+
 /*--slider--*/
 #slider2,
 #slider3 {
@@ -385,6 +421,11 @@ label{
     top: 47%;
     }
 }
+
+
+
+
+
 /*----*/
 .callbacks_tabs a{
  visibility: hidden;
@@ -457,6 +498,15 @@ label{
      width: 22%;
     height: 3px;
 }
+
+
+
+
+
+
+
+
+
 /*--products--*/
 #about {
     padding: 6em 0;
@@ -532,6 +582,11 @@ h3.tittle {
     font-size: 1em;
     font-weight: 600;
 }
+
+
+
+
+
 /* Common style */
 .grid figure {
   position: relative;
@@ -570,6 +625,11 @@ h3.tittle {
 	height: 100%;
 }
 /* Anchor will cover the whole item by default */
+
+
+
+
+
 /* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 1000;
@@ -676,6 +736,10 @@ figure.effect-jazz:hover p {
     font-family: 'Merriweather Sans', sans-serif;
     text-transform: uppercase;
 }
+
+
+
+
 /* Bounce To Bottom */
 .hvr-bounce-to-bottom {
   display: inline-block;
@@ -722,6 +786,11 @@ figure.effect-jazz:hover p {
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 /*--//products--*/
+
+
+
+
+
 /*--services--*/
 #services {
     background: #f7f7f7;
@@ -754,6 +823,10 @@ a.hi-icon img {
     line-height: 1.9em;
     font-size: 1em;
 }
+
+
+
+
 /*--team--*/
 #team {
        padding: 6em 0;
@@ -1168,6 +1241,12 @@ h3.title,h2.title.review {
     font-size: 14px;
     line-height: 2.2em;
 }
+
+
+
+
+
+
 /*--bottom-*/
 .bottom{
   background: url("../images/image/image\ \(3\).jpg") no-repeat 0px 0px;
@@ -1212,125 +1291,8 @@ h2.sec-head {
     font-weight: bold;
 }
 /*--social-icons--*/
-/*--reservation--*/
-#reservation {
-    background: url(../images/reservation.jpg) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    min-height:750px;
-	text-align:center;
-}
-.reservation-info {
-    margin-top: 8em;
-}
-.book-reservation {
-    margin-top: 4em;
-}
-h3.tittle.reserve {
- color: #EFA52C;
 
-}
-.reservation-info h4 {
-    font-size: 3em;
-    color: #800000;
-    line-height: 1.6em;
-}
-.reservation-info h5 {
-    font-size: 2em;
-    color: #fff;
-    line-height: 1.8em;
-}
-.reservation-info h5 span.glyphicon {
-    font-size: 0.8em;
-    vertical-align: middle;
-}
-.book-reservation label {
-       font-size: 1.5em;
-    color: #fff;
-    margin-bottom: 1em;
-    text-align: left;
-    display: block;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-.book-reservation label i{   
-     font-size: 0.9em;
-    margin-right: 10px;
-	color: #EFA52C;
 
-}
-.book-reservation input[type="text"],.book-reservation input[type="date"],.book-reservation input[type="time"] {
-    width: 100%;
-    color:#EFA52C;
-    outline: none;
-    font-size: 1em;
-    padding:1em 1em;
-   border: 2px solid #fff;
-    -webkit-appearance: none;
-    margin-bottom: 1.5em;
-	line-height: 1.8em;
-	font-family: 'Merriweather Sans', sans-serif;
-	background:none;
-}
-.book-reservation select.form-control {
-       outline: none;
-    font-size: 1em;
-  
-    border-radius: 0;
-    height: 66px;
-    background: none;
-    color:#EFA52C;
-    border: 2px solid #fff;
-}
-.make {
-    margin: 1em auto 0;
-    text-align: center;
-}
-.make input[type=submit] {
-       color: #FFFFFF;
-    padding: 1em 2em;
-    font-size: 1.2em;
-    cursor: pointer;
-    border: 2px solid #EFA52C;
-    outline: none;
-    background:#EFA52C;
-    font-family: 'Merriweather Sans', sans-serif;
-}
-.make input[type=submit]:hover {
-    background: none;
-    transition: 0.5s all ease;
-    -webkit-transition: 0.5s all ease;
-    -moz-transition: 0.5s all ease;
-    -o-transition: 0.5s all ease;
-    -ms-transition: 0.5s all ease;
-}
-.arrows-reserve{
-	    position:relative;
-		color:#EFA52C;
-		font-size:2em;
-}
-.arrows-reserve:before{
-    content: '';
-    position: absolute;
-    bottom: 43%;
-    left: 35.5%;
-    background: #fff;
-    width: 11%;
-    height: 3px;
-}
-.arrows-reserve:after{
-     content: '';
-    position: absolute;
-  bottom: 43%;
-    right: 35.5%;
-    background: #fff;
-        width: 11%;
-    height: 3px;
-}
-/*--//reservation--*/
 /*--single--*/
 .banner.two {
     background: url(../images/banner.jpg) no-repeat 0px 0px;
@@ -1611,6 +1573,12 @@ p.post a {
 .blog-section {
     padding: 6em 0;
 }
+
+
+
+
+
+
 /*-- contact-page --*/
 h3.tittle {
     font-size: 5em;
@@ -1799,7 +1767,7 @@ form input[type="submit"]:focus {
     margin-left: 3em;
 }
 #contact {
-    padding: 6em 0;
+    /*padding: 6em 0;*/
 }
 .con-top h4 ,h4.info{
         font-size: 1.4em;
@@ -1824,6 +1792,8 @@ p.wel-text{
     margin-top: 4em;
 }
 /*--footer--*/
+
+
 /*--social-icons--*/
 .logo2{
   text-align:center;
@@ -1839,13 +1809,13 @@ p.wel-text{
     text-transform: uppercase;
 }
 .logo2 a span {
-    color: #fff;
+    color: #EFA52C;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 0.3em;
     font-weight: bold;
 }
 a.flag_tag2 {
-    color: #fff;
+    color: #EFA52C;
     font-size: 1.2em;
 }
 .logo2 p {
@@ -1856,52 +1826,11 @@ a.flag_tag2 {
     padding: 0;
     margin: -9px 0 12px 0;
 }
-ul.s_social li{
-	display:inline-block;
-}
-ul.social li a.tw,ul.social li a.fb,ul.social li a.in,ul.social li a.dott {
-	width:79px;
-	height:89px;
-	display: block;
-	background: url(../images/tw.png)no-repeat 0px 0px;
-}
-ul.social li a.fb {
-	background: url(../images/fb.png)no-repeat 0px 0px;
-}
-ul.social li a.in {
-	background: url(../images/gg.png)no-repeat 0px 0px;
-}
-ul.social li a.dott {
-  background: url(../images/db.png)no-repeat 0px 0px;
-}
-
-ul.social li a:hover{
-	opacity:0.8;
-}
-ul.social{
-	    display: block;
-    padding: 0;
-    margin: 3em auto 0;
-    text-align: center;
-}
-ul.social li{
-	display:inline-block;
-}
-ul.social li a{  
-    margin-right:1em;
-    -webkit-transition: .5s all;
-    transition: .5s all;
-    -moz-transition: .5s all;
-	-webkit-transition: .5s all;
-    transition: .5s all;
-    -moz-transition: .5s all;
-}
 .footer {
    background:#333;
-   padding: 2em 0;
 }
 p.copy-right{
-  color:#fff;
+  color:#EFA52C;
   font-size:0.9em;
     text-align: center;
 }
@@ -1924,6 +1853,8 @@ p.copy-right a:hover{
   text-indent: 100%;
   background: url(../images/move-top.png) no-repeat 0px 0px;
 }
+
+
 /*-- responsive-design starts-here --*/
 @media (max-width: 1440px) {
 	.banner-info p {
@@ -1931,6 +1862,7 @@ p.copy-right a:hover{
 	}
 }
 @media (max-width: 1366px) {
+
 	.ab-text p,.services-gd p,.test-review p,.bottom-top p,p.wel-text,p.para1,.con-top ul li, .con-top ul li ,.single-img p{
 		font-size:0.9em;
 	}
@@ -1938,7 +1870,6 @@ p.copy-right a:hover{
 	h3.tittle,h3.single {
 		font-size: 4.5em;
 	}
-	
 	
 }
 @media (max-width:1280px) {
